@@ -1,6 +1,24 @@
 @charset 'utf-8';
 
 $body-background-color: hsl(0, 0%, 14%);
+$footer-background-color: hsl(0, 0%, 21%);
+$text: hsl(0, 0%, 98%);
+$link: hsl(352, 100%, 55%);
+$link-hover: hsl(240, 100%, 90%);
+$text-strong: hsl(0, 0%, 100%);
 
+
+// Sticky Footer - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
 @import '~bulma/bulma.sass';
 @import '~bulma-o-steps/bulma-steps.scss';

@@ -24,10 +24,12 @@ const renderStep = (step: Step) => {
 
 const Steps = (props: StepsProps) => {
   return (
-    <div className='is-pulled-right'>
-      <ul className='steps is-vertical is-centered is-large has-content-centered'>
-        {props.steps.map(step => renderStep(step))}
-      </ul>
+    <div className='level'>
+      <div className='level-item'>
+        <ul className='steps is-vertical is-centered is-large has-content-centered'>
+          {props.steps.map(step => renderStep(step))}
+        </ul>
+      </div>
     </div>
   );
 };
