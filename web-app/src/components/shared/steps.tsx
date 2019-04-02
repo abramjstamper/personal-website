@@ -1,37 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Step from './step';
 
-interface StepsProps {
-  steps: Array<Step>
+interface Props {
+  steps: Array<StepDT>
 }
 
-interface Step {
+interface StepDT {
   id: number,
-  name: String,
-  date: String
+  employer: String,
+  position: String,
+  date: String,
+  description: String,
+  link: String
 }
 
-const renderStep = (step: Step) => {
-  return (
-    <li key={step.id} className='steps-segment'>
-      <span className='steps-marker is-light'></span>
-      <div className='steps-content has-text-white'>
-        <p className='is-size-4'>{step.date}</p>
-        <p className='heading'>{step.name}</p>
-      </div>
-    </li>
-  );
-}
+class Steps extends Component<Props, {}> {
 
-const Steps = (props: StepsProps) => {
-  return (
-    <div className='level'>
-      <div className='level-item'>
-        <ul className='steps is-vertical is-centered is-large has-content-centered'>
-          {props.steps.map(step => renderStep(step))}
-        </ul>
-      </div>
-    </div>
-  );
-};
+  render() {
+    return (
+      <ul className='steps is-large has-content-centered is-horizontal has-content-above'>
+        {this.props.steps.map(step => <Step step={step} />).reverse()}
+      </ul>
+    );
+  }
+}
 
 export default Steps;

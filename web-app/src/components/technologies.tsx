@@ -12,10 +12,11 @@ const Technologies = (props: Object) => {
           <article className='tile is-child notification is-primary'>
             <p className='title'>Design</p>
             <ul>
-              <li>Sketch App</li>
               <li>Bootstrap</li>
               <li>Bulma</li>
               <li>Materialize CSS</li>
+              <li>Sketch App</li>
+              <li>Adobe Products</li>
             </ul>
           </article>
         </div>
@@ -23,8 +24,8 @@ const Technologies = (props: Object) => {
           <article className='tile is-child notification is-danger'>
             <p className='title'>UX</p>
             <ul>
-              <li>React/Redux</li>
               <li>Angular</li>
+              <li>React/Redux</li>
               <li>Sass</li>
             </ul>
           </article>
@@ -33,11 +34,11 @@ const Technologies = (props: Object) => {
           <article className='tile is-child notification is-info'>
             <p className='title'>API</p>
             <ul>
-              <li>HapiJS</li>
-              <li>ObjectionJS</li>
-              <li>KnexJS</li>
-              <li>Ruby on Rails</li>
               <li>Flask</li>
+              <li>HapiJS</li>
+              <li>KnexJS</li>
+              <li>ObjectionJS</li>
+              <li>Ruby on Rails</li>
             </ul>
           </article>
         </div>
@@ -45,8 +46,8 @@ const Technologies = (props: Object) => {
           <article className='tile is-child notification is-warning'>
             <p className='title'>DB</p>
             <ul>
-              <li>Postgres</li>
               <li>MySQL</li>
+              <li>Postgres</li>
               <li>SQLite</li>
             </ul>
           </article>
@@ -57,8 +58,8 @@ const Technologies = (props: Object) => {
             <ul>
               <li>AWS</li>
               <li>Azure</li>
-              <li>Kafka</li>
               <li>CRON</li>
+              <li>Kafka</li>
               <li>Ubuntu</li>
             </ul>
           </article>

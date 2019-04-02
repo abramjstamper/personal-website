@@ -7,16 +7,22 @@ class Home extends Component {
   render() {
     return (
       <div className='container'>
-        <div className='section'>
+        <section className='section'>
           <h1 className='title has-text-white'>Welcome!</h1>
-          <About />
-        </div>
-        <div className='section'>
-          <Timeline />
-        </div>
-        <div className='section'>
-          <Technologies />
-        </div>
+          <div className='hero-body'>
+            <About />
+          </div>
+        </section>
+        <section className='section'>
+          <div className='hero-body'>
+            <Timeline />
+          </div>
+        </section>
+        <section className='section'>
+          <div className='hero-body'>
+            <Technologies />
+          </div>
+        </section>
       </div>
     );
   }
