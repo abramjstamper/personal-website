@@ -3,7 +3,7 @@ import React from 'react';
 const footer = (props: Object) => {
   return (
     <footer className='footer has-text-white'>
-      <div className='level'>
+      <div className='level is-mobile'>
         <div className='level-item has-text-centered'>
           <a href='https://github.com/abramjstamper' target='_blank'>
             <span className='icon is-large has-text-light'><i className='fab fa-github fa-3x'></i></span>

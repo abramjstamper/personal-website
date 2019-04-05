@@ -2,13 +2,12 @@ import React from 'react';
 
 const Technologies = (props: Object) => {
   return (
-    // <div className='content'>
     <div>
       <div className='content'>
         <h2 className='subtitle'>Technologies</h2>
       </div>
-      <div className='tile is-ancestor'>
-        <div className='tile is-parent has-text-centered'>
+      <div className='tile is-ancestor' style={{ flexWrap: 'wrap' }}>
+        <div className='tile is-parent has-text-centered' >
           <article className='tile is-child notification is-primary'>
             <p className='title'>Design</p>
             <ul>
@@ -47,7 +46,7 @@ const Technologies = (props: Object) => {
             <p className='title'>DB</p>
             <ul>
               <li>MySQL</li>
-              <li>Postgres</li>
+              <li>PostgreSQL</li>
               <li>SQLite</li>
             </ul>
           </article>
