@@ -13,11 +13,11 @@ class Home extends Component {
             <About />
           </div>
         </section>
-        <section className='section'>
+        {/* <section className='section'>
           <div className='hero-body'>
             <Timeline />
           </div>
-        </section>
+        </section> */}
         <section className='section'>
           <div className='hero-body'>
             <Technologies />

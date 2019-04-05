@@ -26,6 +26,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "license": "SEE LICENSE IN LICENSE",
   "browserslist": [
     ">0.2%",
     "not dead",

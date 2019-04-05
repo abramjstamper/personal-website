@@ -20,8 +20,14 @@ const footer = (props: Object) => {
           </a>
         </div>
       </div>
-      <div className='has-text-center'>
-        © Abram Stamper
+      <br />
+      <div className='content'>
+        <p className='is-size-7'>
+          © Abram Stamper 2019
+          <br />
+          The source code is licensed <a href='http://opensource.org/licenses/mit-license.php' target='_blank'> MIT</a>.
+          The website content is licensed <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY NC SA 4.0</a>.
+        </p>
       </div>
     </footer>
   );
