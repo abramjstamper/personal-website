@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-// import posed from 'react-pose';
+import posed from 'react-pose';
 import About from './about';
 import Technologies from './technologies';
 import Timeline from './timeline';
