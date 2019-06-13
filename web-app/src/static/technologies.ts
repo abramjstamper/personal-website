@@ -24,7 +24,7 @@ const technologies: Array<TileProps> = [
   {
     title: 'Cloud',
     color: 'is-success',
-    technologies: ['AWS', 'Azure', 'CRON', 'Kafka', 'Ubuntu']
+    technologies: ['AWS', 'Azure', 'CRON', 'Ubuntu']
   }
 ];
 
