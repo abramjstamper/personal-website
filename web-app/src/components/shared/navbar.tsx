@@ -6,8 +6,8 @@ const Navbar = (props: Object) => {
     <nav className='navbar is-fixed-top' role="navigation" aria-label="main navigation">
       <div id='navbarMenuHeroA' className='navbar-menu'>
         <div className='navbar-end'>
-          <NavLink to='/' className='navbar-item' activeClassName='is-active'>
-            Home
+          <NavLink to='/about' className='navbar-item' activeClassName='is-active'>
+            About
             </NavLink>
           <NavLink to='/timeline' className='navbar-item' activeClassName='is-active'>
             Timeline

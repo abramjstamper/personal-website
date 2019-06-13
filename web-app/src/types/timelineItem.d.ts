@@ -9,6 +9,6 @@ export interface TimelineItemProps {
   link: string
 };
 
-declare const TimelineItem: React.SFC<TimelineItemProps>;
+declare const TimelineItem: React.FunctionComponent<TimelineItemProps>;
 
 export default TimelineItem;

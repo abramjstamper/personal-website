@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { RouteChildrenProps } from 'react-router';
 import posed, { PoseGroup } from 'react-pose';
 import About from './about';
 import Technologies from './technologies';
@@ -10,24 +11,31 @@ const RouteContainer = posed.div({
   exit: { opacity: 0, delay: 50 }
 });
 
-class Home extends Component {
+class Home extends Component<RouteChildrenProps> {
+
+  componentDidMount() {
+    if (this.props.location.pathname === '/') {
+      this.props.history.push('/about');
+    }
+  }
 
   render() {
+    const { location } = this.props;
+    console.log(location);
+
     return (
       <div className='hero-body'>
         <section className='section'>
-          <Route render={({ location }) => (
-            <PoseGroup>
-              <RouteContainer key={location.key}>
-                <Switch location={location}>
-                  <Route path='/about' exact component={About} />
-                  <Route path='/timeline' component={Timeline} />
-                  <Route path='/technologies' component={Technologies} />
-                  <Route component={About} />
-                </Switch>
-              </RouteContainer>
-            </PoseGroup>
-          )} />
+          <PoseGroup>
+            <RouteContainer key={location.pathname}>
+              <Switch>
+                <Route path='/about' exact component={About} />
+                <Route path='/timeline' component={Timeline} />
+                <Route path='/technologies' component={Technologies} />
+                <Route component={About} />
+              </Switch>
+            </RouteContainer>
+          </PoseGroup>
         </section>
       </div>
     );
