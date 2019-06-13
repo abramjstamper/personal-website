@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import Home from './home';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './shared/footer';
+import Home from './home';
+import Navbar from './shared/navbar';
 
 class App extends Component {
   render() {
     return (
       <section className='hero is-fullheight'>
-        <div className='hero-body'>
+        <Router>
+          <Navbar />
           <Home />
-        </div>
-        <div className='hero-foot'>
           <Footer />
-        </div>
+        </Router>
       </section>
     );
   }

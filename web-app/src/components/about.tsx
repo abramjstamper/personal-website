@@ -3,16 +3,16 @@ import React from 'react';
 const About = (props: Object) => {
   return (
     <div className='content'>
+      <h1 className='title'>Welcome!</h1>
       <div className='columns'>
         <div className='column is-3'>
-          <h2 className='subtitle'>About</h2>
           <figure className='image'>
-            <img className='is-rounded' src='professional-headshot.png' alt='professional headshot of Abram' />
+            <img src='professional-headshot.png' alt='professional headshot of Abram' />
           </figure>
         </div>
         <div className='column'>
           <p>
-            Welcome! I'm Abram J. Stamper. I am a full stack software engineer with experience building highly-scalable, production-grade web applications. Graduating magna cum laude, I received a <a href='https://cse.taylor.edu' target='_blank'>Bachelor of Science in Computer Science/Systems</a> from Taylor University. My concentration was software engineering. It focused on the agile software development in a university-sponsored software development company. If you're not familiar with <a href='http://www.taylor.edu/' target='_blank'>Taylor University</a>, it is a private, Christian, Liberal Arts school located in the cornfields of Upload, Indiana. While attending Taylor, I was involved in many extracurricular activities. I was actively involved in representing students to administrators and coordinating student activities as the student body treasurer for two years. At Taylor, I experienced exponential spiritual and personal growth. Before attending Taylor, I graduated from Kokomo High School, in my hometown of Kokomo, Indiana. During my senior year, I was awarded the <a href='https://pittsburghfoundation.org/scholarship/1510' target='_blank'>Wherrett Memorial Scholarship</a>. Without the scholarship, I would not have been able to receive an exceptional education from Taylor.
+            I am Abram J. Stamper. I am a full stack software engineer with experience building highly-scalable, production-grade web applications. Graduating magna cum laude, I received a <a href='https://cse.taylor.edu' target='_blank'>Bachelor of Science in Computer Science/Systems</a> from Taylor University. My concentration was software engineering. It focused on the agile software development in a university-sponsored software development company. If you're not familiar with <a href='http://www.taylor.edu/' target='_blank'>Taylor University</a>, it is a private, Christian, Liberal Arts school located in the cornfields of Upload, Indiana. While attending Taylor, I was involved in many extracurricular activities. I was actively involved in representing students to administrators and coordinating student activities as the student body treasurer for two years. At Taylor, I experienced exponential spiritual and personal growth. Before attending Taylor, I graduated from Kokomo High School, in my hometown of Kokomo, Indiana. During my senior year, I was awarded the <a href='https://pittsburghfoundation.org/scholarship/1510' target='_blank'>Wherrett Memorial Scholarship</a>. Without the scholarship, I would not have been able to receive an exceptional education from Taylor.
           </p>
           <p>
             In my current role, I am currently working as an Advanced Software Engineer for <a href='https://aptiv.com' target='_blank'>Aptiv</a>. Aptiv is a tier one automotive supplier and technology company. My team and I work in advanced development for <a href='https://www.aptiv.com/user-experience' target='_blank'>Active Safety and User Experience</a> business lines. Due to the nature of advanced development, much of what I am currently working on is confidential. Essentially, I work as a product and concept developer for Aptiv's AS/UX product lines. We are the imagineers of Aptiv.

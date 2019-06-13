@@ -3,9 +3,15 @@
 $body-background-color: hsl(0, 0%, 14%);
 $footer-background-color: hsl(0, 0%, 21%);
 $text: hsl(0, 0%, 98%);
-$link: hsl(352, 100%, 55%);
+$link: hsl(352, 100%, 50%);
 $link-hover: hsl(172, 100%, 55%);
 $text-strong: hsl(0, 0%, 100%);
+
+$navbar-item-color: white;
+$navbar-item-active-color: hsl(352, 50%, 54%);
+$navbar-item-hover-color: $link;
+$navbar-item-hover-background-color: $footer-background-color;
+$navbar-background-color:  hsl(0, 0%, 21%);
 
 $footer-padding: 2em 1em 0.5em;
 
@@ -27,6 +33,5 @@ $timeline-marker-border: 0.1em solid hsl(0, 0%, 100%);
 
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import '~bulma/bulma.sass';
-@import '~bulma-o-steps/bulma-steps.scss';
 @import '~bulma-timeline/dist/css/bulma-timeline.sass';
 
