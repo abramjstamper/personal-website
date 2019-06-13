@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = (props: Object) => {
   return (
-    <nav className='navbar is-fixed-top' role="navigation" aria-label="main navigation">
+    <nav className='navbar is-fixed-top navbar-background' role="navigation" aria-label="main navigation">
       <div id='navbarMenuHeroA' className='navbar-menu'>
         <div className='navbar-end'>
           <NavLink to='/' className='navbar-item' activeClassName='is-active'>
