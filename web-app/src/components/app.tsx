@@ -10,7 +10,7 @@ class App extends Component {
       <section className='hero is-fullheight'>
         <Router>
           <Navbar />
-          <Home />
+          <Home {...this.props} />
           <Footer />
         </Router>
       </section>
