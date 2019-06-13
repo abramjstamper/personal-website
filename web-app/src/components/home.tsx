@@ -13,7 +13,6 @@ const RouteContainer = posed.div({
 class Home extends Component {
 
   render() {
-    console.log(this.props);
     return (
       <div className='hero-body'>
         <section className='section'>
