@@ -5,12 +5,14 @@ import Footer from './shared/footer';
 class App extends Component {
   render() {
     return (
-      <div className='main'>
-        <div className='site-content'>
+      <section className='hero is-fullheight'>
+        <div className='hero-body'>
           <Home />
         </div>
-        <Footer/>
-      </div>
+        <div className='hero-foot'>
+          <Footer />
+        </div>
+      </section>
     );
   }
 }

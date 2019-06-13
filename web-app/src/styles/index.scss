@@ -10,17 +10,23 @@ $text-strong: hsl(0, 0%, 100%);
 $footer-padding: 2em 1em 0.5em;
 
 
-// Sticky Footer - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
-.main {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+// // Sticky Footer - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+// .main {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
 
-.site-content {
-  flex: 1;
-}
+// .site-content {
+//   flex: 1;
+// }
+
+$timeline-marker-background-color: hsl(0, 0, 20);
+$timeline-line: hsl(0, 0%, 100%);
+$timeline-marker-border: 0.1em solid hsl(0, 0%, 100%);
 
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import '~bulma/bulma.sass';
 @import '~bulma-o-steps/bulma-steps.scss';
+@import '~bulma-timeline/dist/css/bulma-timeline.sass';
+

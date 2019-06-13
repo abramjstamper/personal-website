@@ -1,4 +1,19 @@
 import React from 'react';
+import { TileProps } from '../types/tile';
+import technologies from './static/technologies';
+
+const Tile = (props: TileProps) => {
+  return (
+    <div className='tile is-parent has-text-centered' >
+      <article className={`tile is-child notification ${props.color}`}>
+        <p className='title'>{props.title}</p>
+        <ul>
+          {props.technologies.map(tech => <li key={tech}>{tech}</li>)}
+        </ul>
+      </article>
+    </div>
+  );
+};
 
 const Technologies = (props: Object) => {
   return (
@@ -7,62 +22,7 @@ const Technologies = (props: Object) => {
         <h2 className='subtitle'>Technologies</h2>
       </div>
       <div className='tile is-ancestor' style={{ flexWrap: 'wrap' }}>
-        <div className='tile is-parent has-text-centered' >
-          <article className='tile is-child notification is-primary'>
-            <p className='title'>Design</p>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Bulma</li>
-              <li>Materialize CSS</li>
-              <li>Sketch App</li>
-              <li>Adobe Products</li>
-            </ul>
-          </article>
-        </div>
-        <div className='tile is-parent has-text-centered'>
-          <article className='tile is-child notification is-danger'>
-            <p className='title'>UX</p>
-            <ul>
-              <li>Angular</li>
-              <li>React/Redux</li>
-              <li>Sass</li>
-            </ul>
-          </article>
-        </div>
-        <div className='tile is-parent has-text-centered'>
-          <article className='tile is-child notification is-info'>
-            <p className='title'>API</p>
-            <ul>
-              <li>Flask</li>
-              <li>HapiJS</li>
-              <li>KnexJS</li>
-              <li>ObjectionJS</li>
-              <li>Ruby on Rails</li>
-            </ul>
-          </article>
-        </div>
-        <div className='tile is-parent has-text-centered'>
-          <article className='tile is-child notification is-warning'>
-            <p className='title'>DB</p>
-            <ul>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>SQLite</li>
-            </ul>
-          </article>
-        </div>
-        <div className='tile is-parent has-text-centered'>
-          <article className='tile is-child notification is-success'>
-            <p className='title'>Cloud</p>
-            <ul>
-              <li>AWS</li>
-              <li>Azure</li>
-              <li>CRON</li>
-              <li>Kafka</li>
-              <li>Ubuntu</li>
-            </ul>
-          </article>
-        </div>
+        {technologies.map(tech => <Tile key={tech.title} {...tech} />)}
       </div>
     </div>
   );
