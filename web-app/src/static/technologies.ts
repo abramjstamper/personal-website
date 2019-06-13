@@ -1,4 +1,4 @@
-import { TileProps } from '../../types/tile';
+import { TileProps } from '../types/tile';
 
 const technologies: Array<TileProps> = [
   {

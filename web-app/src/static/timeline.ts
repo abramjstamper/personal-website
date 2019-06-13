@@ -1,4 +1,4 @@
-import { TimelineItemProps } from '../../types/timelineItem';
+import { TimelineItemProps } from '../types/timelineItem';
 
 const steps: Array<TimelineItemProps> = [
   {

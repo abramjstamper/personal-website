@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TimelineItemProps } from '../types/timelineItem';
-import timeline from './static/timeline';
+import timeline from '../static/timeline';
 
 const TimelineItem = (props: TimelineItemProps) => {
   return (

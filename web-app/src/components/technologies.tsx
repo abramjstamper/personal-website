@@ -1,6 +1,6 @@
 import React from 'react';
 import { TileProps } from '../types/tile';
-import technologies from './static/technologies';
+import technologies from '../static/technologies';
 
 const Tile = (props: TileProps) => {
   return (
