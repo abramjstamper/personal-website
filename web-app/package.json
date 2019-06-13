@@ -1,5 +1,5 @@
 {
-  "name": "web-app",
+  "name": "personal-site-web-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +29,11 @@
     "extends": "react-app"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abramjstamper/personal-website.git",
+    "directory": "web-app"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
