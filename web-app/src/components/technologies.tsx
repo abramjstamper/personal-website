@@ -4,7 +4,7 @@ import technologies from '../static/technologies';
 
 const Tile = (props: TileProps) => {
   return (
-    <div className='tile is-parent has-text-centered' >
+    <div className='tile is-parent is-4 has-text-centered' >
       <article className={`tile is-child notification ${props.color}`}>
         <p className='title'>{props.title}</p>
         <ul>
