@@ -21,8 +21,6 @@ class Home extends Component<RouteChildrenProps> {
 
   render() {
     const { location } = this.props;
-    console.log(location);
-
     return (
       <div className='hero-body'>
         <section className='section'>
