@@ -5,7 +5,6 @@ import Home from './home';
 import Navbar from './shared/navbar';
 
 class App extends Component {
-
   render() {
     return (
       <section className='hero is-fullheight'>
