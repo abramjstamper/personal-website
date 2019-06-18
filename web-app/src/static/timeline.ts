@@ -29,7 +29,7 @@ const steps: Array<TimelineItemProps> = [
     id: 4,
     employer: 'Aptiv',
     position: 'Advanced Software Engineer',
-    date: 'May 2018',
+    date: 'May 2018 - Present',
     description: 'Aptiv is a tier one automotive supplier and technology company. I work in advanced development for Active Safety and User Experience business lines. While working for Aptiv, I created the architecture for a cloud IoT software product, developed the initial user experience wire frames. I worked with Azure IaaS & PaaS, PostgreSQL, NodeJS, and ReactJS - among other additional technologies not listed.',
     link: 'https://www.aptiv.com'
   }

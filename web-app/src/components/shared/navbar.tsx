@@ -9,8 +9,8 @@ const Navbar = (props: Object) => {
           <NavLink to='/about' className='navbar-item' activeClassName='is-active'>
             About
             </NavLink>
-          <NavLink to='/timeline' className='navbar-item' activeClassName='is-active'>
-            Timeline
+          <NavLink to='/experience' className='navbar-item' activeClassName='is-active'>
+            Experience
             </NavLink>
           <NavLink to='/technologies' className='navbar-item' activeClassName='is-active'>
             Technologies

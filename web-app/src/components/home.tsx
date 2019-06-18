@@ -4,7 +4,7 @@ import { RouteChildrenProps } from 'react-router';
 import posed, { Transition } from 'react-pose';
 import About from './about';
 import Technologies from './technologies';
-import Timeline from './timeline';
+import Experience from './experience';
 
 const RouteContainer = posed.div({
   enter: {
@@ -47,7 +47,7 @@ class Home extends Component<RouteChildrenProps> {
           <RouteContainer key={location.pathname} initialPose='exit'>
             <Switch>
               <Route path='/about' exact component={About} />
-              <Route path='/timeline' component={Timeline} />
+              <Route path='/experience' component={Experience} />
               <Route path='/technologies' component={Technologies} />
               <Route component={About} />
             </Switch>

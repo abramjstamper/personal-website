@@ -6,17 +6,17 @@ const footer = (props: Object) => {
       <footer className='footer has-text-white'>
         <div className='level is-mobile'>
           <div className='level-item has-text-centered'>
-            <a href='https://github.com/abramjstamper' target='_blank'>
+            <a href='https://github.com/abramjstamper' target='_blank' rel='noopener noreferrer'>
               <span className='icon is-large has-text-light'><i className='fab fa-github fa-3x'></i></span>
             </a>
           </div>
           <div className='level-item has-text-centered'>
-            <a href='https://www.linkedin.com/in/abramstamper/' target='_blank'>
+            <a href='https://www.linkedin.com/in/abramstamper/' target='_blank' rel='noopener noreferrer'>
               <span className='icon is-large has-text-light'><i className='fab fa-linkedin fa-3x'></i></span>
             </a>
           </div>
           <div className='level-item has-text-centered'>
-            <a href='https://stackexchange.com/users/2158482/abram-stamper' target='_blank'>
+            <a href='https://stackexchange.com/users/2158482/abram-stamper' target='_blank' rel='noopener noreferrer'>
               <span className='icon is-large has-text-light'><i className='fab fa-stack-overflow fa-3x'></i></span>
             </a>
           </div>
@@ -26,8 +26,7 @@ const footer = (props: Object) => {
           <p className='is-size-7'>
             © Abram Stamper 2019
           <br />
-            The source code is licensed <a href='http://opensource.org/licenses/mit-license.php' target='_blank'> MIT</a>.
-          The website content is licensed <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY NC SA 4.0</a>.
+            The source code is licensed <a href='http://opensource.org/licenses/mit-license.php' target='_blank' rel='noopener noreferrer'> MIT</a>.
         </p>
         </div>
       </footer>

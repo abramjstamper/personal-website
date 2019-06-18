@@ -9,7 +9,7 @@ const TimelineItem = (props: TimelineItemProps) => {
       <div className='timeline-content'>
         <p className='heading'>{props.date} • {props.position} • {props.employer}</p>
         <p>{props.description} &nbsp;
-          <a href={props.link} target='_blank'>View More</a>
+          <a href={props.link} target='_blank' rel='noopener noreferrer'>View More</a>
         </p>
       </div>
     </div>
