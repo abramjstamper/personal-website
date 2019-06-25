@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 import './styles/index.scss';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-77125987-1');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

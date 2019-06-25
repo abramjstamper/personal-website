@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { RouteChildrenProps } from 'react-router';
 import posed, { Transition } from 'react-pose';
+import ReactGA from 'react-ga';
 import About from './about';
 import Technologies from './technologies';
 import Experience from './experience';
@@ -41,6 +42,8 @@ class Home extends Component<RouteChildrenProps> {
 
   render() {
     const { location } = this.props;
+    ReactGA.pageview(location.pathname);
+
     return (
       <section className='section container'>
         <Transition key={location.pathname} >
