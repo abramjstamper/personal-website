@@ -12,8 +12,8 @@ const RouteContainer = posed.div({
     x: 0,
     delay: 300, beforeChildren: true,
     transition: {
-      x: { type: 'spring', stiffness: 1000, damping: 15 },
-      default: { duration: 300 },
+      x: { type: 'spring', stiffness: 1000, damping: 20 },
+      default: { duration: 250 },
       opacity: () => (
         { type: 'keyframes', values: [0, 0.5, 0.75, 0.99, 1] })
     },

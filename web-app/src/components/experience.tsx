@@ -22,7 +22,7 @@ class Timeline extends Component {
       <div className='content'>
         <h2 className='subtitle'>Experience</h2>
         <div className='timeline is-centered'>
-          {timeline.map(item => <TimelineItem key={item.id} {...item} />)}
+          {timeline.reverse().map(item => <TimelineItem key={item.id} {...item} />)}
         </div>
       </div>
     );

@@ -9,7 +9,7 @@ const technologies: Array<TileProps> = [
   {
     title: 'Back-End',
     color: 'is-success',
-    technologies: ['Flask', 'HapiJS', 'KnexJS', 'ObjectionJS', 'Ruby on Rails']
+    technologies: ['Flask • Python', 'HapiJS • NodeJS', 'Ruby on Rails • Ruby']
   },
   {
     title: 'Database',
@@ -19,17 +19,17 @@ const technologies: Array<TileProps> = [
   {
     title: 'Design',
     color: 'is-warning',
-    technologies: ['Bootstrap', 'Bulma', 'Materialize CSS', 'Sketch App', 'Adobe Products']
+    technologies: ['Adobe Illustrator', 'Adobe Photoshop', 'Bootstrap', 'Bulma', 'Final Cut Pro', 'Materialize CSS', 'Sketch App']
   },
   {
     title: 'Cloud',
     color: 'is-info',
-    technologies: ['AWS', 'Azure', 'Firebase']
+    technologies: ['AWS', 'Azure', 'Digital Ocean', 'Firebase']
   },
   {
-    title: 'Linux',
+    title: 'Tools',
     color: 'is-link',
-    technologies: ['bash', 'CRON', 'git', 'systemd', 'Ubuntu']
+    technologies: ['bash', 'CRON', 'git', 'Mac OS', 'systemd', 'Ubuntu/linux', 'VS Code']
   }
 ];
 
