@@ -4,6 +4,9 @@ TARGET="/tmp/personal-site-build"
 GIT_DIR="/home/abramjstamper/Documents/personal-site.git"
 BRANCH="master"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 while read oldrev newrev ref
 do
 # only checking out the master (or whatever branch you would like to deploy)
